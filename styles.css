@@ -118,6 +118,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  height: 100%;
 }
 
 .hero-title {
@@ -186,6 +187,8 @@ body {
 .hero-image {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .profile-placeholder {
@@ -194,6 +197,7 @@ body {
   background: linear-gradient(135deg, #4169e1, #8a2be2);
   border-radius: 50%;
   opacity: 0.8;
+  top: 0;
 }
 
 section {
